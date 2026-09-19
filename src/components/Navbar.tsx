@@ -28,7 +28,7 @@ function Navbar() {
             <a href="#philosophy">About</a>
             <a href="#token">Token</a>
             <a href="#wallet">Reminder</a>
-            <a href="#faq">FAQ</a>
+            <a href="#value">Value</a>
             <a className="button" href="#token">Get $NOW</a>
           </nav>
         </div>

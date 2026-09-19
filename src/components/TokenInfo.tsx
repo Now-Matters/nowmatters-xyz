@@ -1,7 +1,7 @@
 function TokenInfo() {
   return (
     <>
-      <section className="quote-section" id="faq">
+      <section className="quote-section" id="value">
         <div className="container quote">
           <p className="eyebrow">The coin has no value.</p>
           <h2>The moment does.</h2>
