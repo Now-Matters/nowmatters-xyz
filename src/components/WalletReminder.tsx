@@ -19,7 +19,7 @@ function Wallet() {
               </p>
 
               <p>
-                Every time you see it, let it be a reminder:
+                Every time you see it, let it be a reminder:&nbsp;
                 <span className="strong">the most important thing is happening now.</span>
               </p>
             </div>
