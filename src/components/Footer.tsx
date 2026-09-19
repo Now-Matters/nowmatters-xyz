@@ -9,9 +9,8 @@ function Footer() {
           </div>
 
           <div className="socials">
-            <a href="#" aria-label="X">X</a>
             <a href="https://t.me/nowmatterscoin" aria-label="Telegram" target="_blank">Telegram</a>
-            <a href="#" aria-label="Discord">Discord</a>
+            <a href="https://github.com/Now-Matters" aria-label="GitHub" target="_blank">GitHub</a>
           </div>
 
           <div className="footer-tagline">
