@@ -11,6 +11,7 @@ function Footer() {
           <div className="socials">
             <a href="https://t.me/nowmatterscoin" aria-label="Telegram" target="_blank">Telegram</a>
             <a href="https://github.com/Now-Matters" aria-label="GitHub" target="_blank">GitHub</a>
+            <a href="mailto:info@nowmatters.xyz" aria-label="Email">info@nowmatters.xyz</a>
           </div>
 
           <div className="footer-tagline">
