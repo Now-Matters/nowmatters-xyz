@@ -45,8 +45,8 @@ function Philosophy() {
             <div className="stat">
               <div className="stat-icon">◉</div>
               <div>
-                <span className="stat-label">Supply</span>
-                <span className="stat-value">TBD — fixed supply</span>
+                <span className="stat-label">Fixed supply</span>
+                <span className="stat-value">1,000,000 NOW</span>
               </div>
             </div>
 
@@ -54,7 +54,7 @@ function Philosophy() {
               <div className="stat-icon">⌑</div>
               <div>
                 <span className="stat-label">Contract</span>
-                <span className="stat-value">TBD</span>
+                <span className="stat-value">0x059112ec4c72c4e131b84F4B3Ecb6bF5CF12D597</span>
               </div>
             </div>
 
