@@ -1,3 +1,5 @@
+import { config } from "../config"
+
 function Navbar() {
   /*const menuButton = document.getElementById("menuButton");
   const navLinks = document.getElementById("navLinks");
@@ -29,7 +31,9 @@ function Navbar() {
             <a href="#token">Token</a>
             <a href="#wallet">Reminder</a>
             <a href="#value">Value</a>
-            <a className="button" href="#token">Get $NOW</a>
+            <a className="button" target="_blank" href={config.links.uniswap}>
+              Get $NOW
+            </a>
           </nav>
         </div>
       </header>

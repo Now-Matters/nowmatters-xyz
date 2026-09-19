@@ -1,3 +1,5 @@
+import { config } from "../config"
+
 function TokenInfo() {
   return (
     <>
@@ -12,7 +14,9 @@ function TokenInfo() {
             Just a reminder.
           </p>
 
-          <a className="button secondary" href="#top">Get $NOW</a>
+          <a className="button secondary" target="_blank" href={config.links.uniswap}>
+            Get $NOW
+          </a>
         </div>
       </section>
     </>

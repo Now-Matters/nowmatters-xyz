@@ -1,3 +1,5 @@
+import { config } from "../config"
+
 function Hero() {
   return (
     <>
@@ -13,7 +15,9 @@ function Hero() {
             But now matters most — because now is the only moment you can actually live.
           </p>
 
-          <a className="button" href="#wallet">Get $NOW</a>
+          <a className="button" target="_blank" href={config.links.uniswap}>
+            Get $NOW
+          </a>
         </div>
       </section>
     </>
