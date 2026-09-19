@@ -10,7 +10,7 @@ function Footer() {
 
           <div className="socials">
             <a href="#" aria-label="X">X</a>
-            <a href="#" aria-label="Telegram">Telegram</a>
+            <a href="https://t.me/nowmatterscoin" aria-label="Telegram" target="_blank">Telegram</a>
             <a href="#" aria-label="Discord">Discord</a>
           </div>
 
