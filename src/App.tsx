@@ -4,6 +4,12 @@ import Hero from './components/Hero'
 import Philosophy from './components/Philosophy'
 import Wallet from './components/WalletReminder'
 import TokenInfo from './components/TokenInfo'
+import Transparency from './components/Transparency'
+import Launch from './components/Launch'
+import Founder from './components/Founder'
+import OfficialLinks from './components/OfficialLinks'
+import FAQ from './components/FAQ'
+import Disclaimer from './components/Disclaimer'
 import Footer from './components/Footer'
 
 function App() {
@@ -15,6 +21,12 @@ function App() {
         <Philosophy />
         <Wallet />
         <TokenInfo />
+        <Transparency />
+        <Launch />
+        <Founder />
+        <OfficialLinks />
+        <FAQ />
+        <Disclaimer />
       </main>
       <Footer />
     </>

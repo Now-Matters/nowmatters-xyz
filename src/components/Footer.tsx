@@ -1,27 +1,29 @@
+import { config } from "../config"
+
 function Footer() {
   return (
-    <>
-      <footer className="footer">
-        <div className="container footer-inner">
-          <div>
-            <div className="footer-brand">NOW MATTERS</div>
-            <div className="footer-meta">$NOW &nbsp;/&nbsp; nowmatters.xyz</div>
-          </div>
-
-          <div className="socials">
-            <a href="https://t.me/nowmatterscoin" aria-label="Telegram" target="_blank">Telegram</a>
-            <a href="https://github.com/Now-Matters" aria-label="GitHub" target="_blank">GitHub</a>
-            <a href="mailto:info@nowmatters.xyz" aria-label="Email">info@nowmatters.xyz</a>
-          </div>
-
-          <div className="footer-tagline">
-            Not tomorrow.<br />
-            Not yesterday.<br />
-            <strong>Now.</strong>
-          </div>
+    <footer className="footer">
+      <div className="container footer-inner">
+        <div>
+          <div className="footer-brand">NOW MATTERS</div>
+          <div className="footer-meta">$NOW &nbsp;/&nbsp; nowmatters.xyz &nbsp;/&nbsp; Base</div>
+          <div className="footer-contract">{config.token.contract}</div>
         </div>
-      </footer>
-    </>
+
+        <div className="socials">
+          <a href={config.links.telegram} aria-label="Telegram" target="_blank" rel="noopener noreferrer">Telegram</a>
+          <a href={config.links.github} aria-label="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href={config.links.basescan} aria-label="BaseScan" target="_blank" rel="noopener noreferrer">BaseScan</a>
+          <a href={config.links.email} aria-label="Email">Email</a>
+        </div>
+
+        <div className="footer-tagline">
+          Not tomorrow.<br />
+          Not yesterday.<br />
+          <strong>Now.</strong>
+        </div>
+      </div>
+    </footer>
   )
 }
 

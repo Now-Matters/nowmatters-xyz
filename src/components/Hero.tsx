@@ -2,25 +2,22 @@ import { config } from "../config"
 
 function Hero() {
   return (
-    <>
-      <section className="hero">
-        <div className="container">
-          <p className="eyebrow">A different kind of memecoin</p>
-          <h1>NOW MATTERS</h1>
-          <div className="subtitle">A memecoin with a bigger purpose.</div>
+    <section className="hero">
+      <div className="container">
+        <p className="eyebrow">A different kind of memecoin</p>
+        <h1>NOW MATTERS</h1>
+        <div className="subtitle">The present moment matters.</div>
 
-          <p className="hero-copy">
-            The past matters because it made you who you are.<br />
-            The future matters because you can shape it.<br />
-            But now matters most — because now is the only moment you can actually live.
-          </p>
+        <p className="hero-copy">
+          You can hold $NOW in your wallet simply to see it on your balance<br />
+          and remember what really matters.
+        </p>
 
-          <a className="button" target="_blank" href={config.links.uniswap}>
-            Get $NOW
-          </a>
-        </div>
-      </section>
-    </>
+        <a className="button" target="_blank" rel="noopener noreferrer" href={config.links.uniswap}>
+          Get $NOW
+        </a>
+      </div>
+    </section>
   )
 }
 
