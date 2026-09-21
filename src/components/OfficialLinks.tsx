@@ -4,6 +4,7 @@ function OfficialLinks() {
   const links = [
     ["Website", "Official project website.", "https://nowmatters.xyz/"],
     ["GitHub", "Official project organization and source code.", config.links.github],
+    ["X", "Official X (formerly Twitter) account.", config.links.x],
     ["Telegram", "Official NOW MATTERS Telegram channel.", config.links.telegram],
     ["BaseScan", "Publicly verifiable token and transaction data.", config.links.basescan],
     ["Uniswap Auction", "Official $NOW launch auction.", config.links.uniswap],

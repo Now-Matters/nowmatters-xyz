@@ -11,6 +11,7 @@ function Footer() {
         </div>
 
         <div className="socials">
+          <a href={config.links.x} aria-label="X" target="_blank" rel="noopener noreferrer">X</a>
           <a href={config.links.telegram} aria-label="Telegram" target="_blank" rel="noopener noreferrer">Telegram</a>
           <a href={config.links.github} aria-label="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href={config.links.basescan} aria-label="BaseScan" target="_blank" rel="noopener noreferrer">BaseScan</a>
