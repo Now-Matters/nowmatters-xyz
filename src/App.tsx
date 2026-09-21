@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import './App.css'
+import StatusBanner from './components/StatusBanner'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Philosophy from './components/Philosophy'
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <>
+      <StatusBanner />
       <Navbar />
       <main id="top">
         <Hero />

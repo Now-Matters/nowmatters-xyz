@@ -1,4 +1,6 @@
 export const config = {
+  // Set to false to hide the security notice banner once the Blockaid review is resolved.
+  notice: { enabled: true },
   token: {
     name: "Now Matters",
     symbol: "$NOW",
