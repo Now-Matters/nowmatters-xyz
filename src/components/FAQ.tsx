@@ -1,3 +1,4 @@
+import { useI18n } from "../i18n/context"
 const questions = [
   ["What is $NOW?", "$NOW is a memecoin on Base built around a simple reminder: the present moment matters."],
   ["What is the purpose of $NOW?", "There is no financial or technological utility promised by the project. $NOW exists as a reminder to return your attention to the present moment."],
@@ -12,18 +13,19 @@ const questions = [
 ]
 
 function FAQ() {
+  const { t } = useI18n()
   return (
     <section className="quote-section" id="faq">
       <div className="container">
         <div className="section-intro centered">
           <p className="eyebrow">FAQ</p>
-          <h2 className="section-title">Frequently asked.</h2>
+          <h2 className="section-title">{t("Frequently asked.")}</h2>
         </div>
         <div className="faq-list">
           {questions.map(([question, answer]) => (
             <details className="faq-item" key={question}>
-              <summary>{question}</summary>
-              <div className="faq-answer">{answer}</div>
+              <summary>{t(question)}</summary>
+              <div className="faq-answer">{t(answer)}</div>
             </details>
           ))}
         </div>

@@ -1,3 +1,4 @@
+import { useI18n } from "../i18n/context"
 const stack = [
   {
     name: "Base",
@@ -30,18 +31,15 @@ const stack = [
 ]
 
 function BuiltOn() {
+  const { t } = useI18n()
   return (
     <section className="info-section stack-section" id="built-on">
       <div className="container">
         <div className="section-intro centered">
-          <p className="eyebrow">Built on</p>
-          <h2 className="section-title">Built on open infrastructure.</h2>
+          <p className="eyebrow">{t("Built on")}</p>
+          <h2 className="section-title">{t("Built on open infrastructure.")}</h2>
           <div className="body-copy" style={{ marginInline: "auto" }}>
-            <p>
-              $NOW does not reinvent anything. It is built on top of established, open
-              technologies: the network it lives on, the standard it follows, the library
-              its contract is based on, and the protocol it launched through.
-            </p>
+            <p>{t("$NOW does not reinvent anything. It is built on top of established, open technologies: the network it lives on, the standard it follows, the library its contract is based on, and the protocol it launched through.")}</p>
           </div>
         </div>
 
@@ -53,23 +51,20 @@ function BuiltOn() {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label={`${name} — ${role}`}
+              aria-label={`${name} — ${t(role)}`}
             >
               <span className="stack-logo">
                 <img src={logo} alt="" width={32} height={32} loading="lazy" />
               </span>
-              <span className="stack-role">{role}</span>
+              <span className="stack-role">{t(role)}</span>
               <h3>{name}</h3>
-              <p>{description}</p>
-              <span className="stack-visit">Visit {name} ↗</span>
+              <p>{t(description)}</p>
+              <span className="stack-visit">{t("Visit {name} ↗").replace("{name}", name)}</span>
             </a>
           ))}
         </div>
 
-        <p className="stack-note">
-          These are the technologies $NOW is built with. No partnership, affiliation, or
-          endorsement is implied. Logos and trademarks belong to their respective owners.
-        </p>
+        <p className="stack-note">{t("These are the technologies $NOW is built with. No partnership, affiliation, or endorsement is implied. Logos and trademarks belong to their respective owners.")}</p>
       </div>
     </section>
   )

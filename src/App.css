@@ -783,3 +783,8 @@ section {
 .notice-details > div p { margin: 0 0 8px; flex: none; }
 .notice-details > div p:last-child { margin: 0; }
 .notice a { font-weight: 650; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Language selector */
+.lang-select { appearance: none; -webkit-appearance: none; padding: 8px 30px 8px 14px; border: 1px solid var(--blue-200); border-radius: 999px; background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' stroke='%2324639b' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1l4 4 4-4'/%3E%3C/svg%3E") no-repeat right 12px center; color: var(--blue-700); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; transition: border-color .2s ease; }
+.lang-select:hover, .lang-select:focus-visible { border-color: var(--blue-400); outline: none; }
+@media (max-width: 820px) { .lang-select { width: 100%; margin: 8px 0 0; padding: 12px 14px; } }

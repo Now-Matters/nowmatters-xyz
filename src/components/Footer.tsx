@@ -1,6 +1,8 @@
+import { useI18n } from "../i18n/context"
 import { config } from "../config"
 
 function Footer() {
+  const { t } = useI18n()
   return (
     <footer className="footer">
       <div className="container footer-inner">
@@ -19,9 +21,9 @@ function Footer() {
         </div>
 
         <div className="footer-tagline">
-          Not tomorrow.<br />
-          Not yesterday.<br />
-          <strong>Now.</strong>
+          {t("Not tomorrow.")}<br />
+          {t("Not yesterday.")}<br />
+          <strong>{t("Now.")}</strong>
         </div>
       </div>
     </footer>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://nowmatters.xyz/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowmatters.xyz/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nowmatters.xyz/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nowmatters.xyz/de/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nowmatters.xyz/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nowmatters.xyz/"/>
+  </url>
+  <url>
+    <loc>https://nowmatters.xyz/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowmatters.xyz/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nowmatters.xyz/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nowmatters.xyz/de/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nowmatters.xyz/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nowmatters.xyz/"/>
+  </url>
+  <url>
+    <loc>https://nowmatters.xyz/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowmatters.xyz/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nowmatters.xyz/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nowmatters.xyz/de/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nowmatters.xyz/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nowmatters.xyz/"/>
+  </url>
+  <url>
+    <loc>https://nowmatters.xyz/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nowmatters.xyz/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nowmatters.xyz/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nowmatters.xyz/de/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nowmatters.xyz/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nowmatters.xyz/"/>
+  </url>
+</urlset>
