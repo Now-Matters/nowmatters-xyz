@@ -23,6 +23,7 @@ function Navbar() {
           <a href="#philosophy" onClick={closeMenu}>About</a>
           <a href="#token" onClick={closeMenu}>Token</a>
           <a href="#transparency" onClick={closeMenu}>Transparency</a>
+          <a href="#how-to-get" onClick={closeMenu}>How to get</a>
           <a href="#launch" onClick={closeMenu}>Launch</a>
           <a href="#faq" onClick={closeMenu}>FAQ</a>
           <a className="button" target="_blank" rel="noopener noreferrer" href={config.links.uniswap} onClick={closeMenu}>

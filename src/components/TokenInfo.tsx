@@ -1,4 +1,5 @@
 import { config } from "../config"
+import CopyButton from "./CopyButton"
 
 function TokenInfo() {
   return (
@@ -24,7 +25,7 @@ function TokenInfo() {
               <tr><th>Standard</th><td>ERC-20</td></tr>
               <tr><th>Total supply</th><td>1,000,000 NOW</td></tr>
               <tr><th>Decimals</th><td>4</td></tr>
-              <tr><th>Contract</th><td className="mono">{config.token.contract}</td></tr>
+              <tr><th>Contract</th><td><span className="mono">{config.token.contract}</span> <CopyButton value={config.token.contract} /></td></tr>
             </tbody>
           </table>
         </div>

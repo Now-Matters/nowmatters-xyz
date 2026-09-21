@@ -1,3 +1,5 @@
+import Icon from "./Icons"
+
 function Transparency() {
   return (
     <section className="info-section alt" id="transparency">
@@ -16,18 +18,22 @@ function Transparency() {
 
         <div className="info-grid">
           <div className="info-card">
+            <span className="card-icon"><Icon name="layers" /></span>
             <h3>Supply</h3>
             <p>The initial and total supply is 1,000,000 NOW. The contract has no additional mint function.</p>
           </div>
           <div className="info-card">
+            <span className="card-icon"><Icon name="percent" /></span>
             <h3>Taxes</h3>
             <p>There are no buy, sell, or transfer taxes in the token contract.</p>
           </div>
           <div className="info-card">
+            <span className="card-icon"><Icon name="shield" /></span>
             <h3>Restrictions</h3>
             <p>No blacklist, trading-limit, or special transfer-restriction mechanism is implemented.</p>
           </div>
           <div className="info-card">
+            <span className="card-icon"><Icon name="code" /></span>
             <h3>Contract design</h3>
             <p>The token uses a standard ERC-20 implementation based on OpenZeppelin and is not an upgradeable proxy.</p>
           </div>
