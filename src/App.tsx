@@ -6,6 +6,7 @@ import Wallet from './components/WalletReminder'
 import TokenInfo from './components/TokenInfo'
 import Transparency from './components/Transparency'
 import Launch from './components/Launch'
+import BuiltOn from './components/BuiltOn'
 import Founder from './components/Founder'
 import OfficialLinks from './components/OfficialLinks'
 import FAQ from './components/FAQ'
@@ -23,6 +24,7 @@ function App() {
         <TokenInfo />
         <Transparency />
         <Launch />
+        <BuiltOn />
         <Founder />
         <OfficialLinks />
         <FAQ />
